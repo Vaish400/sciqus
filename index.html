@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFlow - Modern Web Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <button class="hamburger-menu" id="hamburgerMenu" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <h1>TechFlow</h1>
+            </div>
+            <nav class="header-nav">
+                <a href="#features">Features</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-wrapper">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-content">
+                <div class="sidebar-header">
+                    <h2>Navigation</h2>
+                </div>
+                <nav class="sidebar-nav">
+                    <ul>
+                        <li><a href="#container1"><span class="nav-icon">🏠</span> Home</a></li>
+                        <li><a href="#container2"><span class="nav-icon">📊</span> Dashboard</a></li>
+                        <li><a href="#container3"><span class="nav-icon">🛍️</span> Products</a></li>
+                        <li><a href="#container4"><span class="nav-icon">📈</span> Analytics</a></li>
+                        <li><a href="#container5"><span class="nav-icon">⚙️</span> Settings</a></li>
+                        <li><a href="#container6"><span class="nav-icon">📱</span> Gallery</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="containers-grid">
+                <!-- Container 1: Image/Carousel -->
+                <div class="container container-1" id="container1">
+                    <h3>Featured Products</h3>
+                    <div class="carousel-wrapper">
+                        <div class="carousel-slide active">
+                            <div class="carousel-content">
+                                <div class="product-image product-1"></div>
+                                <div class="product-info">
+                                    <h4>Premium Package</h4>
+                                    <p>Advanced features for professionals</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-content">
+                                <div class="product-image product-2"></div>
+                                <div class="product-info">
+                                    <h4>Business Suite</h4>
+                                    <p>Complete solution for your team</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-content">
+                                <div class="product-image product-3"></div>
+                                <div class="product-info">
+                                    <h4>Enterprise Edition</h4>
+                                    <p>Scalable solutions for large organizations</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                </div>
+
+                <!-- Container 2: Text Block -->
+                <div class="container container-2" id="container2">
+                    <h3>Dashboard Overview</h3>
+                    <div class="inner-rectangle">
+                        <div class="chart-placeholder">
+                            <div class="chart-bar" style="height: 60%"></div>
+                            <div class="chart-bar" style="height: 80%"></div>
+                            <div class="chart-bar" style="height: 45%"></div>
+                            <div class="chart-bar" style="height: 90%"></div>
+                            <div class="chart-bar" style="height: 70%"></div>
+                            <div class="chart-bar" style="height: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="text-content">
+                        <p><strong>Total Revenue:</strong> $124,580</p>
+                        <p><strong>Active Users:</strong> 2,847</p>
+                        <p><strong>Growth Rate:</strong> +23.5% this month</p>
+                    </div>
+                </div>
+
+                <!-- Container 3: Interactive Slider -->
+                <div class="container container-3" id="container3">
+                    <h3>Product Showcase</h3>
+                    <div class="slider-wrapper">
+                        <button class="slider-arrow slider-arrow-left" aria-label="Previous slide">←</button>
+                        <div class="slider-content">
+                            <div class="slider-inner-rectangle">
+                                <div class="showcase-item active" id="showcaseItem">
+                                    <div class="showcase-image showcase-img-1"></div>
+                                    <h4>Smart Device Pro</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="slider-arrow slider-arrow-right" aria-label="Next slide">→</button>
+                    </div>
+                    <div class="text-content">
+                        <p><strong>Latest Innovation:</strong> Cutting-edge technology</p>
+                        <p><strong>Price:</strong> $299.99</p>
+                        <p><strong>Rating:</strong> ⭐⭐⭐⭐⭐ (4.8/5)</p>
+                    </div>
+                </div>
+
+                <!-- Container 4: Static Content -->
+                <div class="container container-4" id="container4">
+                    <h3>Company News</h3>
+                    <div class="static-content">
+                        <div class="news-item">
+                            <div class="news-date">Dec 15, 2024</div>
+                            <h4>New Product Launch</h4>
+                            <p>We're excited to announce our latest innovation that will revolutionize the industry. Join us for the launch event on January 10th.</p>
+                        </div>
+                        <div class="news-item">
+                            <div class="news-date">Dec 10, 2024</div>
+                            <h4>Partnership Announcement</h4>
+                            <p>TechFlow partners with leading tech companies to bring you better solutions and enhanced services.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Container 5: Buttons A and B -->
+                <div class="container container-5" id="container5">
+                    <div class="button-group">
+                        <button class="tab-button active" id="buttonA">Monthly</button>
+                        <button class="tab-button" id="buttonB">Yearly</button>
+                    </div>
+                    <h3>Pricing Plans</h3>
+                    <div class="tab-content" id="tabContent">
+                        <div class="pricing-card">
+                            <div class="price">$29<span>/month</span></div>
+                            <ul class="features-list">
+                                <li>✓ 10 Projects</li>
+                                <li>✓ 50GB Storage</li>
+                                <li>✓ Email Support</li>
+                                <li>✓ Basic Analytics</li>
+                            </ul>
+                            <button class="cta-button">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Container 6: Interactive Slider -->
+                <div class="container container-6" id="container6">
+                    <h3>Customer Gallery</h3>
+                    <div class="slider-wrapper">
+                        <button class="slider-arrow slider-arrow-left" aria-label="Previous slide">←</button>
+                        <div class="slider-content">
+                            <div class="slider-item active">
+                                <div class="gallery-image gallery-1"></div>
+                                <p class="gallery-caption">Modern Workspace Setup</p>
+                            </div>
+                            <div class="slider-item">
+                                <div class="gallery-image gallery-2"></div>
+                                <p class="gallery-caption">Team Collaboration</p>
+                            </div>
+                            <div class="slider-item">
+                                <div class="gallery-image gallery-3"></div>
+                                <p class="gallery-caption">Innovation Hub</p>
+                            </div>
+                        </div>
+                        <button class="slider-arrow slider-arrow-right" aria-label="Next slide">→</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Overlay for mobile sidebar -->
+    <div class="overlay" id="overlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
